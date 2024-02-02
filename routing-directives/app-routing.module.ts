@@ -8,7 +8,7 @@ import { DashboadComponent } from './dashboad/dashboad.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
 
-const routes: Routes = [{path:'home', component:HomeComponent}, {path:'about', component:AboutComponent}, {path:'dashboard', component:DashboadComponent},
+const routes: Routes = [{path:'home', component:HomeComponent}, {path:'about', component:AboutComponent}, {path:'dashboad', component:DashboadComponent},
 {path:'data-binding', component:DataBindingComponent},{path:'directives', component:DirectivesComponent} ];
 
 @NgModule({
