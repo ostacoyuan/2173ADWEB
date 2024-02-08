@@ -128,6 +128,11 @@
     <h4>Start and end index:- {{ Fruits | slice:4 }}</h4>
     <h5>Negative index:- {{ Fruits | slice:-2 }}</h5>
     <h6>Negative start and end index:- {{ Fruits | slice:-4:-2 }}</h6>
+
+    <h2>Other Examples</h2>
+    <h3>First and Last index:- {{ Fruits | slice:0:6 }}</h3>
+    <h4>Negative first and last index:- {{ Fruits | slice:-6:-1 }}</h4>
+    <h5>Negative and Positive Index :- {{ Fruits | slice:2:-1 }}</h5>
   </div>
   <hr />
 
@@ -135,6 +140,10 @@
     <h2>Decimal Pipe</h2>
     <p>Apply formatting:- {{ decimalNum1 | number:'1.1' }}</p>
     <p>Apply formatting:- {{ decimalNum2 | number:'1.1-4' }}</p>
+    <h2>Other Examples</h2>
+    <p>Apply formatting:- {{ decimalNum1 | number:'1.1-2' }}</p>
+    <p>Apply formatting:- {{ decimalNum2 | number:'1.1-1' }}</p>
+    <p>Apply formatting:- {{ decimalNum1 | number:'1.1-1' }}</p>
   </div>
   <hr />
 
