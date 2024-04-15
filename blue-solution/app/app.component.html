@@ -1,0 +1,23 @@
+<header>
+<nav class="">
+  <label class="logo">Blue Solutions</label>
+      <ul class="">
+       
+        <li>
+          <a class="active" routerLink="/home-page" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</a>
+        </li>
+        <li>
+          <a routerLink="/about-page" routerLinkActive="active">About</a>
+        </li>
+        <li>
+          <a routerLink="/news-page" routerLinkActive="active">News</a>
+        </li> 
+        <li>
+          <a routerLink="/donors-page" routerLinkActive="active">Recent Donor</a>
+        </li>
+      </ul>
+     
+</nav>
+<a routerLink="/support-page" routerLinkActive="active"><button>Support Campaign</button> </a>
+</header>
+<router-outlet></router-outlet>
