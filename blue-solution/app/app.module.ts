@@ -8,6 +8,8 @@ import { NewsComponent } from './news/news.component';
 import { DonorsComponent } from './donors/donors.component';
 import { SupportComponent } from './support/support.component';
 import { HomeComponent } from './home/home.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatChipsModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,11 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatChipsModule,
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

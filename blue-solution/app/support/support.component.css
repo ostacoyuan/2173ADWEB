@@ -1,0 +1,59 @@
+.donation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 50%;
+  }
+  
+  form {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-group label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #67BDCB;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #459ba8;
+  }
+  
